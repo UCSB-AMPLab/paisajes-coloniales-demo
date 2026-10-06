@@ -5,6 +5,7 @@ caption: "Capítulo primero de las ciudades y villas: ciudad de Nuevo Reino, San
 ---
 image: historia/mapa-ubicacion.jpg
 alt: Mapa del Nuevo Reino de Granada entre el mar Caribe y el mar del Sur. Muestra Cartagena, Santa Marta, Popayán, Santafé de Bogotá y el río Magdalena, y en gris las tierras de más de 500 metros sobre el nivel del mar. Un recuadro alrededor de Santafé de Bogotá marca el área representada en la Pintura de las tierras de Bogotá. Un mapa pequeño de Suramérica enmarca la región y traza la cordillera de los Andes.
+caption: Basado en el mapa 1, “Nuevo Reino de Granada”, en Santiago Muñoz Arbeláez, *Costumbres en disputa: los muiscas y el Imperio español en Ubaque, siglo XVI* (Bogotá: Universidad de los Andes, 2015), p. 3.
 ---
 image: historia/def-audiencia.png
 alt: Tesoro de la lengua castellana, o española. Sebastián de Covarrubias Orozco, 1611
