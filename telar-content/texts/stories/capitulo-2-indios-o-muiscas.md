@@ -10,10 +10,12 @@ En 1492, Colón había salido de España en busca de Asia y siempre creyó haber
 image: historia/2.1.1.jpg
 alt: Von Canibalien dem folck von Canaria, 1527
 caption: Von Canibalien dem folck von Canaria, 1527. Cortesía de John Carter Brown Library.
+
 ---
 image: historia/2.1.2.jpg
 alt: Americaner in Peru, 1612
 caption: Americaner in Peru, 1612. Cortesía de John Carter Brown Library.
+
 ---
 image: historia/2.1.3.jpg
 alt: La Figure E. F. Formes des cannoes ou batteaux des Caripous & autres Indiens. Comment les Caribes boucanent & mangent la chair de leurs enemies, 1665

@@ -28,10 +28,12 @@ A partir de este momento el paisaje estaría dominado por cruces y símbolos cat
 image: historia/2.2.3.jpg
 alt: Pueblo de Soacha, 1627
 caption: Pueblo de Soacha, 1627. Cortesía del Archivo General de la Nación, Bogotá.
+
 ---
 image: historia/2.2.4.jpg
 alt: Pueblo de Sopó, 1758
 caption: Pueblo de Sopó, 1758. Cortesía del Archivo General de la Nación, Bogotá.
+
 ---
 image: historia/2.2.5.jpg
 alt: Bogotá y la Serrezuela, 1771

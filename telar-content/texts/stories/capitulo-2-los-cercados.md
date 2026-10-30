@@ -16,22 +16,27 @@ En los milenios siguientes perfeccionaron su uso de la cerámica y desarrollaron
 image: historia/2.4.1.jpg
 alt: Figura votiva en orfebrería. Cordillera Oriental - muisca. Fecha: 600/1600
 caption: Figura votiva en orfebrería. Cordillera Oriental - muisca. Fecha: 600/1600. Cortesía del Museo del Oro (Bogotá).
+
 ---
 image: historia/2.4.2.jpg
 alt: Figura votiva en orfebrería. Cordillera Oriental - muisca. Fecha: 600/1600
 caption: Figura votiva en orfebrería. Cordillera Oriental - muisca. Fecha: 600/1600. Cortesía del Museo del Oro (Bogotá).
+
 ---
 image: historia/2.4.3.jpg
 alt: Figura votiva en forma de cercado con hombre bicéfalo. Cordillera Oriental - periodo muisca. Fecha: 600/1600
 caption: Figura votiva en forma de cercado con hombre bicéfalo. Cordillera Oriental - periodo muisca. Fecha: 600/1600. Cortesía del Museo del Oro (Bogotá).
+
 ---
 image: historia/2.4.4.jpg
 alt: Figura votiva en forma de cercado en orfebrería. Cordillera Oriental - muisca. Fecha: 600/1600
 caption: Figura votiva en forma de cercado en orfebrería. Cordillera Oriental - muisca. Fecha: 600/1600. Cortesía del Museo del Oro (Bogotá).
+
 ---
 image: historia/2.4.5.jpg
 alt: Figura votiva en forma de cercado con figuras antropomorfas. Fecha: 600/1600
 caption: Figura votiva en forma de cercado con figuras antropomorfas. Fecha: 600/1600. Cortesía del Museo del Oro (Bogotá).
+
 ---
 image: historia/2.4.6.jpg
 alt: Objeto de oro en forma de cercado. Cundinamarca, Colombia

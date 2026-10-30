@@ -27,22 +27,27 @@ Tesoro de la lengua castellana, o española. Sebastián de Covarrubias Orozco, 1
 image: historia/1.3.1.jpg
 alt: La carta uniuersale della terra ferma & Isole delle Indie occide[n]tali [La carta universal del continente y las islas de las Indias Occidentales]. Lugar y fecha de publicación: Venecia, 1534
 caption: La carta uniuersale della terra ferma & Isole delle Indie occide[n]tali [*La carta universal del continente y las islas de las Indias Occidentales*]. Lugar y fecha de publicación: Venecia, 1534. Cortesía de: John Carter Brown Library, Providence.
+
 ---
 image: historia/1.3.2.jpg
 alt: Psalter, with additional hymns and prayers and a medieval world map ('The Map Psalter') [Salterio, con himnos y oraciones adicionales y un mapa medieval del mundo]. Lugar y fecha de publicación: Londres, 1262–1300
 caption: Psalter, with additional hymns and prayers and a medieval world map ('The Map Psalter') [*Salterio, con himnos y oraciones adicionales y un mapa medieval del mundo*]. Lugar y fecha de publicación: Londres, 1262–1300. Cortesía de: British Library, Londres.
+
 ---
 image: historia/1.3.3.jpg
 alt: The Map of the World [El mapa del mundo]. Lugar y fecha de creación: Abu Habba (Sippar), siglo VI a.C. aproximadamente
 caption: The Map of the World [*El mapa del mundo*]. Lugar y fecha de creación: Abu Habba (Sippar), siglo VI a.C. aproximadamente. Cortesía de: The British Museum, Londres.
+
 ---
 image: historia/1.3.4.jpg
 alt: Painting, in black, on sealskin; a large number of small figures, including men in sledges drawn by reindeer, in canoes, harpooning whales, etc. [Pintura, en negro, sobre piel de foca; una gran cantidad de pequeñas figuras, incluidos hombres en trineos tirados por renos, en canoas, arpones, etc.]. Lugar y fecha de recolección: Rusia / Siberia Estrecho de Bering (costa asiática), 1860 o 1870. Recuperado de: Pitt Rivers Museum, Oxford
 caption: Painting, in black, on sealskin; a large number of small figures, including men in sledges drawn by reindeer, in canoes, harpooning whales, etc. [*Pintura, en negro, sobre piel de foca; una gran cantidad de pequeñas figuras, incluidos hombres en trineos tirados por renos, en canoas, arpones, etc.*]. Lugar y fecha de recolección: Rusia / Siberia Estrecho de Bering (costa asiática), 1860 o 1870. Recuperado de: Pitt Rivers Museum, Oxford.
+
 ---
 image: historia/1.3.5.jpg
 alt: The Codex Quetzalecatzin [El códex Quetzalecatzin]. Lugar y fecha de creación: México, 1593
 caption: The Codex Quetzalecatzin [*El códex Quetzalecatzin*]. Lugar y fecha de creación: México, 1593. Cortesía de: Library of Congress, Washington D.C.
+
 ---
 image: historia/1.3.6.jpg
 alt: Map of the Crown Prince Islands, Disko Bay, Greenland [Mapa de las Islas del Príncipe Heredero, Bahía de Disko, Groenlandia]. Lugar y fecha de creación: Bahía de Disko, 1926. Recuperado de: Library of Congress, Washington D.C
