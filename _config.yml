@@ -4,8 +4,8 @@
 # Site Settings
 title: "Paisajes Coloniales"
 description: "Explora las transformaciones sociales y ambientales que vivieron las poblaciones indígenas y los paisajes de la actual Colombia durante los siglos XVI y XVII a través del análisis de una pintura de la Sabana de Bogotá de 1614."
-url: "https://ampl.clair.ucsb.edu"
-baseurl: "/paisajes-coloniales-demo"
+url: "https://paisajes.telar.org"
+baseurl: ""
 author: ""
 email: ""
 telar_theme: "paisajes"
