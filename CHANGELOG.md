@@ -4,6 +4,44 @@ All notable changes to Telar will be documented in this file.
 
 ## [Unreleased]
 
+## [1.8.2] - 2026-10-16
+
+Upgrade cleanup patch. Fixes a column name that an old upgrade wrote over a story's title, corrects two parts of the template's glossary, removes old copies of the upgrade scripts from upgraded sites, and lets sites with many large images finish upgrading.
+
+### Fixed
+
+- **Story title replaced by "show_sections".** Upgrading a site from a version before 1.2.0 added a `show_sections` column to `project.csv`. If the sheet had a single header row, the upgrade wrote the column's name into the first story's row. The upgrade now checks whether the second row is a header before writing to it.
+- **Glossary instructions.** The instruction rows at the top of `glossary.csv` said to put glossary files in `/components/texts/glossary/`. Since 1.8.0 they belong in `/telar-content/texts/glossary/`. The upgrade corrects these rows unless you have changed them.
+- **The "Telar" glossary entry in two languages.** On sites made from older templates, the glossary entry for "Telar" has its definition in both English and Spanish. The upgrade keeps only your site's language, unless you have changed the entry. If your site reads its content from Google Sheets, the upgrade asks you to make the same change in your sheet.
+- **Old copies of the upgrade scripts.** Sites that upgrade with `scripts/upgrade.py` download the upgrade scripts each time they run. They still kept a copy that never ran: `scripts/telar_upgrade.py` and three helper files. The upgrade now deletes these files once it finishes, unless you have changed them.
+- **Upgrade scripts on new Compositor sites.** Sites created in the Compositor no longer get a copy of the upgrade scripts and migrations.
+- **Sites with many large images could not upgrade.** At the end of an upgrade, Telar regenerates the IIIF tiles for the images your site hosts itself, and stops that step after three minutes. When it ran out of time, the whole upgrade failed and the site stayed at its old version. The upgrade now finishes, and its summary says the tiles were not fully regenerated. This affected upgrades from your own computer and through GitHub Actions.
+
+### Notes
+
+- Migration script `scripts/migrations/v181_to_v182.py` upgrades automatically from v1.8.1, and chains through from earlier versions. Upgrades with the "Upgrade Telar" workflow or from your own computer have one optional step: you can delete `.github/workflows/telar-tests.yml`. It runs Telar's own tests, which are always skipped on your site. Upgrades through the Compositor have no manual steps.
+
+## [1.8.1] - 2026-10-09
+
+Story navigation and warnings patch. Fixes three ways a story could leave cards or images out of place, a valid IIIF manifest reported as invalid, and two details of demo content, and adds a setting that keeps build warnings off the published site.
+
+### Added
+
+- **Hide build warnings.** `hide_warnings` under `development-features` in `_config.yml` keeps build warnings off the published site: those on the home page, the objects page and object pages, a story's warnings, and the IIIF address banner. A link to a missing glossary entry shows its text without the warning marker. The build log still lists every warning. Off by default.
+
+### Fixed
+
+- **Back to Start.** Returning to the intro with Back to Start left the current step's card, and in some stories its image, on screen over the intro.
+- **Fast arrow keys.** Pressing an arrow key several times quickly could leave cards and images stopped part-way across the screen.
+- **Camera between two details.** Scrolling between two steps that zoom into details near opposite edges of an image moved the camera into one edge and along it, instead of straight across.
+- **IIIF manifests served as generic files.** A valid manifest whose server labels it `application/octet-stream`, as some object stores do, showed "Image Viewer Unavailable" on its object page although the viewer loaded it, and its title and description were not filled in from it.
+- **Demo story sections.** A demo story that lists its sections, such as Colonial Landscapes, now shows them on its intro card.
+- **Demo glossary after turning demo content off.** On a site built on your own computer, the demo glossary entries stayed after demo content was turned off. The next build now removes them.
+
+### Notes
+
+- Migration script `scripts/migrations/v180_to_v181.py` upgrades automatically from v1.8.0, and chains through from earlier versions. No manual steps.
+
 ## [1.8.0] - 2026-10-04
 
 Story motion and glossary kinds release. This release changes how a story reads. Moving from one step to the next is now one motion, with text cards that scroll through as the image moves; each card takes the size its answer and the window need, and each answer is held to what its card can show. Glossary entries can now be key terms, primary sources, people or entities, or places, and an entry can sit beside the text as a callout. Links can open a page of a multi-page object or a glossary entry, and the address bar moves the story. The release also fixes what a site could publish wrong without its owner being able to see it: self-hosted images missing after a quiet week, maths broken everywhere but a panel, a carousel image with an unresolved address, and a private story published in the clear because its column was spelled in the masculine (in Spanish-language sites). An upgrade now reports what it did, in the site's language, to the reader each step is for, and a file missing from a release no longer stalls it.
