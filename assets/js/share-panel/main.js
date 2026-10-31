@@ -420,8 +420,8 @@ export function createSharePanel({
     const shareSiteUrlInput = doc.getElementById('share-site-url-input');
     if (!shareSiteUrlInput) return;
 
-    const pathParts = win.location.pathname.split('/').filter(p => p);
-    const baseUrl = win.location.origin + (pathParts.length > 0 ? '/' + pathParts[0] + '/' : '/');
+    const baseurlMeta = win.document.querySelector('meta[name="baseurl"]');
+    const baseUrl = win.location.origin + (baseurlMeta ? baseurlMeta.content : '') + '/';
     shareSiteUrlInput.value = baseUrl;
   }
 
